@@ -1,6 +1,7 @@
 package com.epam.izh.rd.online.repository;
 
 import com.epam.izh.rd.online.entity.Book;
+import com.epam.izh.rd.online.entity.SchoolBook;
 
 /**
  * Интерфейс репозитория для хранения данных о книгах
@@ -13,7 +14,7 @@ import com.epam.izh.rd.online.entity.Book;
  * 5) Инициалазировать его пустым массивом
  * 6) Написать в классе SimpleSchoolBookRepository реализацию для всех методов (коллекции не используем, работаем только с массивами)
  */
-public interface BookRepository<T extends Book> {
+public interface BookRepository<T extends SchoolBook> {
 
     /**
      * Метод должен сохранять школьную книгу в массив schoolBooks.
